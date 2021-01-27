@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './Containers/Home';
 import Skill from './Containers/Skill';
 import Work from './Containers/Work';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route exact path='/Work' component={Work} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

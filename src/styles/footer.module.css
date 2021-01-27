@@ -1,0 +1,23 @@
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 8px 0;
+}
+   
+small {
+    display: flex;
+    align-items: center;
+    color: var(--baseColor);
+    font-size: var(--subText);
+    opacity: var(--opacity);
+}
+
+span {
+    display: inline-block;
+}
+
+.mark {
+    margin: 2px 4px 0 0;
+    font-size: 16px;
+    line-height: 1;
+}

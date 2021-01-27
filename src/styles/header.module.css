@@ -1,23 +1,25 @@
-.header {
-    & nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 12px 16px;
-        margin: 0 auto;
-        max-width: var(--columnSpace);
-    }
-    & ul:last-child {
-        display: flex;
-        & li {
-            padding-left: 16px;
-        }
-    }
-    & a {
-        color: var(--baseColor);
-        opacity: var(--opacity);
-        padding-bottom: 2px;
-        &:hover {
-            opacity: 1;
-        }
-    }
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    margin: 0 auto;
+    max-width: var(--columnSpace);
+}
+
+ul:last-child {
+    display: flex;
+}
+    
+li {
+    padding-left: 16px;
+}
+    
+a {
+    color: var(--baseColor);
+    opacity: var(--opacity);
+    padding-bottom: 2px;
+}
+
+:hover {
+    opacity: 1;
 }

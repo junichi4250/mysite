@@ -1,14 +1,15 @@
+import styles from '../styles/profile.module.css';
+
 function Profile() {
     return (
-        <div>
-            <div>
+        <div className="mainBlock">
+            <div className="mainBlockMargin">
                 <section>
-                    <div>
-                        <div>
-                        </div>
+                    <div className={styles.name}>
+                        <div className={styles.icon}></div>
                         <h2>加藤</h2>
                     </div>
-                    <p>
+                    <p className="text">
                         えんじにあです。
                     </p>
                 </section>
