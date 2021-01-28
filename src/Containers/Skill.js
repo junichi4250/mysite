@@ -1,14 +1,14 @@
 import Header from '../Components/Header';
-import Profile from '../Components/Profile';
-import Biography from '../Components/Biography';
+import Cases from '../Components/Cases';
+import Skills from '../Components/Skills';
 import Sns from '../Components/Sns';
 
 function Skill() {
     return (
         <div>
             <Header />
-            <Profile />
-            <Biography />
+            <Cases />
+            <Skills />
             <Sns />
         </div>
     );

@@ -1,0 +1,25 @@
+.cover {
+    position: relative;
+    background-color: var(--baseColor);
+    padding-bottom: 16px;
+}
+        
+.art {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 250px;
+}
+
+.art1 {
+    background-image: url(../images/cover_relationship.jpg);
+}
+
+.art2 {
+    background-image: url(../images/cover_research.jpg);
+}
+
+.art3 {
+    background-image: url(../images/cover_city.jpg);
+}
+

@@ -4,11 +4,11 @@
     margin-top: 20px;
 }
 
-li {
+.accounts li {
     padding: 0 28px 0 0;
 }
     
-a {
+.accounts li a {
     display: block;
     line-height: 24px;
 }
